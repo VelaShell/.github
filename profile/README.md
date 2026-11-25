@@ -8,7 +8,7 @@
 
 [官网](https://joesdu.github.io/VelaShell/) ·
 [主程序](https://github.com/joesdu/VelaShell) ·
-[文档](https://github.com/VelaShellLabs/velashell-docs) ·
+[文档](https://github.com/VelaShell/velashell-docs) ·
 [插件商店](https://market.easilynet.top)
 
 </div>
@@ -29,12 +29,12 @@ VelaShell 是一款为运维与开发者打造的**现代化跨平台 SSH / SFTP
 
 | 仓库 | 内容 |
 | --- | --- |
-| [velashell-docs](https://github.com/VelaShellLabs/velashell-docs) | **全部文档**:宿主设计、插件系统蓝图、SDK / CLI / 模板手册([中文](https://github.com/VelaShellLabs/velashell-docs/tree/main/zh) · [English](https://github.com/VelaShellLabs/velashell-docs/tree/main/en)) |
-| [velashell-plugin-sdk](https://github.com/VelaShellLabs/velashell-plugin-sdk) | 插件契约 SDK:`VelaShell.PluginSdk`、`.Testing` |
-| [velashell-plugin-cli](https://github.com/VelaShellLabs/velashell-plugin-cli) | `vela-plugin` 命令行与 `VelaShell.PluginSdk.Build` |
-| [velashell-plugin-templates](https://github.com/VelaShellLabs/velashell-plugin-templates) | `dotnet new velaplugin` 模板 |
-| [velashell-plugins](https://github.com/VelaShellLabs/velashell-plugins) | 第一方插件:Redis / S3 / Telnet / 串口 / (Docker / Compose 管理面板插件) |
-| [velashell-markets](https://github.com/VelaShellLabs/velashell-markets) | 插件商店:上传、审核、检索与分发 |
+| [velashell-docs](https://github.com/VelaShell/velashell-docs) | **全部文档**:宿主设计、插件系统蓝图、SDK / CLI / 模板手册([中文](https://github.com/VelaShell/velashell-docs/tree/main/zh) · [English](https://github.com/VelaShell/velashell-docs/tree/main/en)) |
+| [velashell-plugin-sdk](https://github.com/VelaShell/velashell-plugin-sdk) | 插件契约 SDK:`VelaShell.PluginSdk`、`.Testing` |
+| [velashell-plugin-cli](https://github.com/VelaShell/velashell-plugin-cli) | `vela-plugin` 命令行与 `VelaShell.PluginSdk.Build` |
+| [velashell-plugin-templates](https://github.com/VelaShell/velashell-plugin-templates) | `dotnet new velaplugin` 模板 |
+| [velashell-plugins](https://github.com/VelaShell/velashell-plugins) | 第一方插件:Redis / S3 / Telnet / 串口 / (Docker / Compose 管理面板插件) |
+| [velashell-markets](https://github.com/VelaShell/velashell-markets) | 插件商店:上传、审核、检索与分发 |
 
 ### 写一个插件
 
@@ -45,9 +45,9 @@ dotnet build -t:PackVpx            # 出 bin/vpx/*.vpx
 ```
 
 生成的工程只引用一个 NuGet 包,契约程序集、与宿主版本一致的 Avalonia、清单校验与打包器
-都随它到位。从这里开始读:[开发指南](https://github.com/VelaShellLabs/velashell-docs/blob/main/zh/templates/dev-guide.md) →
-[CLI 手册](https://github.com/VelaShellLabs/velashell-docs/blob/main/zh/cli/cli.md) →
-[打包与发布](https://github.com/VelaShellLabs/velashell-docs/blob/main/zh/templates/publishing.md)。
+都随它到位。从这里开始读:[开发指南](https://github.com/VelaShell/velashell-docs/blob/main/zh/templates/dev-guide.md) →
+[CLI 手册](https://github.com/VelaShell/velashell-docs/blob/main/zh/cli/cli.md) →
+[打包与发布](https://github.com/VelaShell/velashell-docs/blob/main/zh/templates/publishing.md)。
 
 ### 许可与联系
 
@@ -76,12 +76,12 @@ itself lives at [joesdu/VelaShell](https://github.com/joesdu/VelaShell).
 
 | Repository | Contents |
 | --- | --- |
-| [velashell-docs](https://github.com/VelaShellLabs/velashell-docs) | **All documentation**: host design, plugin blueprint, SDK / CLI / template manuals ([English](https://github.com/VelaShellLabs/velashell-docs/tree/main/en) · [中文](https://github.com/VelaShellLabs/velashell-docs/tree/main/zh)) |
-| [velashell-plugin-sdk](https://github.com/VelaShellLabs/velashell-plugin-sdk) | The plugin contract SDK: `VelaShell.PluginSdk`, `.Testing` |
-| [velashell-plugin-cli](https://github.com/VelaShellLabs/velashell-plugin-cli) | The `vela-plugin` CLI and `VelaShell.PluginSdk.Build` |
-| [velashell-plugin-templates](https://github.com/VelaShellLabs/velashell-plugin-templates) | The `dotnet new velaplugin` templates |
-| [velashell-plugins](https://github.com/VelaShellLabs/velashell-plugins) | First-party plugins: Redis / S3 / Telnet / serial / (A Docker / Compose management panel plugin)|
-| [velashell-markets](https://github.com/VelaShellLabs/velashell-markets) | The plugin marketplace: upload, review, search, distribution |
+| [velashell-docs](https://github.com/VelaShell/velashell-docs) | **All documentation**: host design, plugin blueprint, SDK / CLI / template manuals ([English](https://github.com/VelaShell/velashell-docs/tree/main/en) · [中文](https://github.com/VelaShell/velashell-docs/tree/main/zh)) |
+| [velashell-plugin-sdk](https://github.com/VelaShell/velashell-plugin-sdk) | The plugin contract SDK: `VelaShell.PluginSdk`, `.Testing` |
+| [velashell-plugin-cli](https://github.com/VelaShell/velashell-plugin-cli) | The `vela-plugin` CLI and `VelaShell.PluginSdk.Build` |
+| [velashell-plugin-templates](https://github.com/VelaShell/velashell-plugin-templates) | The `dotnet new velaplugin` templates |
+| [velashell-plugins](https://github.com/VelaShell/velashell-plugins) | First-party plugins: Redis / S3 / Telnet / serial / (A Docker / Compose management panel plugin)|
+| [velashell-markets](https://github.com/VelaShell/velashell-markets) | The plugin marketplace: upload, review, search, distribution |
 
 ### Write a plugin
 
@@ -93,9 +93,9 @@ dotnet build -t:PackVpx            # produces bin/vpx/*.vpx
 
 The generated project references a single NuGet package — the contract assembly, a
 host-matched Avalonia, manifest validation and the packer all come with it. Start here:
-[dev guide](https://github.com/VelaShellLabs/velashell-docs/blob/main/en/templates/dev-guide.md) →
-[CLI manual](https://github.com/VelaShellLabs/velashell-docs/blob/main/en/cli/cli.md) →
-[publishing](https://github.com/VelaShellLabs/velashell-docs/blob/main/en/templates/publishing.md).
+[dev guide](https://github.com/VelaShell/velashell-docs/blob/main/en/templates/dev-guide.md) →
+[CLI manual](https://github.com/VelaShell/velashell-docs/blob/main/en/cli/cli.md) →
+[publishing](https://github.com/VelaShell/velashell-docs/blob/main/en/templates/publishing.md).
 
 ### Licence and contact
 
